@@ -6,3 +6,11 @@
 - Install React router dom
 - Add footer
 - Add outlet in body for child routes
+- Create login page
+- Install Axios
+- Cors install in BE -> add middleware cors with origin and credentials:true
+- Login API call -> {withCredentials: true}
+- Install Redux toolkit
+- ConfigureStore => Provider in App.js => createSlice => add reducer to store
+- Subscribe to the store using useSelector to get the loggedin user info from the store
+- Navigate to feed once loggedin
