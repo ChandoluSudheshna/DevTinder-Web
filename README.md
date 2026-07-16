@@ -3,3 +3,6 @@
 - Tailwind installed
 - Install Daisy UI
 - Add Navbar component
+- Install React router dom
+- Add footer
+- Add outlet in body for child routes
