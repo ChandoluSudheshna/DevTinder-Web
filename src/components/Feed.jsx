@@ -33,9 +33,14 @@ const Feed = () => {
 
   return (
     feed && (
-      <div className="flex justify-center my-10">
-        <UserCard user={feed[0]} />
-      </div>
+      <>
+        <p className="flex justify-center mt-10 font-bold text-xl">
+          Send Interest or Ignore
+        </p>
+        <div className="flex justify-center my-10">
+          <UserCard user={feed[0]} />
+        </div>
+      </>
     )
   );
 };
