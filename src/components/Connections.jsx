@@ -29,10 +29,10 @@ const Connections = () => {
       <h1 className="text-bold text-center text-2xl">My Connections</h1>
       <div className="flex flex-col items-center gap-5 mt-5">
         {connections.map((connection) => {
-          const { firstName, lastName, photoUrl, age, gender, about } =
+          const { _id, firstName, lastName, photoUrl, age, gender, about } =
             connection;
           return (
-            <div>
+            <div key={_id}>
               <ul className="list bg-base-200 rounded-box shadow-md mt-2 w-200 ">
                 <li className="list-row mx-5 shadow-xl">
                   <div>
