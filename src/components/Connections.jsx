@@ -3,6 +3,7 @@ import { BASE_URL } from "../utils/constants";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addConnections } from "../utils/connectionSlice";
+import { Link } from "react-router-dom";
 
 const Connections = () => {
   const dispatch = useDispatch();
@@ -46,6 +47,9 @@ const Connections = () => {
                     </div>
                   </div>
                   <p className="list-col-wrap text-xs">{about}</p>
+                  <Link to={"/chat/" + _id}>
+                    <button className="btn btn-primary"> Chat</button>
+                  </Link> 
                 </li>
               </ul>
             </div>
